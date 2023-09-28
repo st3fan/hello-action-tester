@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: st3fan/hello-action@v1.0.0
+        uses: st3fan/hello-action@943a1b6db49a5efe3a55fb1ad3bd94992Oa767a5
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
